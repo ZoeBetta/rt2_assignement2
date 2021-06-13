@@ -42,8 +42,8 @@ double randMToN(double M, double N)
 
 /**
  * \brief: Called when I have a request from the client
- * \param req: it is a message composed of the maximum and minimum of the intervalin both x and y
- * \param res: it is a message composed of the random x and y coordinates and the orientation
+ * \param req : it is a message composed of the maximum and minimum of the intervalin both x and y
+ * \param res : it is a message composed of the random x and y coordinates and the orientation
  * 
  * \return: True
  * 

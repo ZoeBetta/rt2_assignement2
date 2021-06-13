@@ -155,7 +155,6 @@ int main(int argc, char **argv)
 									end_time=std::chrono::steady_clock::now();
 									// Calculate how long it took
 									std::chrono::duration<double> elapsed_seconds = end_time-start_time;
-									std::cout <<"elapsed time:" <<elapsed_seconds.count() <<"s\n";
 									elapsed_time=float(elapsed_seconds.count());
 									time_total.data=elapsed_time;
 									// publish on the topic /time the time to reach the goal
